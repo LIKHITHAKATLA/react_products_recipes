@@ -1,0 +1,28 @@
+.product-details {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fdfdfd;
+  }
+  
+  .product-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-details h1 {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .product-details p {
+    font-size: 1.1rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  

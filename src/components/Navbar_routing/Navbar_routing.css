@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .navbar {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222; /* dark background */
+    padding: 15px 50px;
+    position: sticky;
+    top: 5px;
+  }
+  
+  .left_nav h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .right_nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .right_nav li {
+    list-style: none;
+    color: #ffffff; 
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s;
+  }
+  #link{
+    text-decoration: none;
+  }
+  .menu{
+    display: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: 100px;
+  }
+ 
+  
+  .right_nav li:hover {
+    color: #e74c3c;
+  }
+  
+  /* Search Icon Style */
+  .right_nav li svg {
+    font-size: 20px;
+    vertical-align: middle;
+  }
+  
+  /* Optional hover underline */
+  .right_nav li::after {
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #e74c3c;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s;
+  }
+  
+  .right_nav li:hover::after {
+    width: 100%;
+  }
+  
+/* 
+  @media (max-width:870px) {
+    .right_nav{
+      display: none;
+    }
+    .left_nav{
+      margin-left: -30px;
+    }
+    .menu{
+      display: inline-block;
+    }
+  }
+     */
