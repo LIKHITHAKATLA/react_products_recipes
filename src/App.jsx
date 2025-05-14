@@ -22,6 +22,7 @@ import data from './components/Products/Pdata'
 import Productdetails from './components/Products/Productdetails'
 import Receipes from './components/Receipe/Receipes'
 import data1 from './components/Receipe/data'
+import Classbased from './components/classbased/Classbased'
 // console.log(data.products)
 function App() {
   const student1 = {
@@ -40,6 +41,7 @@ function App() {
         <Route path='/receipe' element={<Receipes receipedata={data1.recipes} />} />
     
       </Routes>
+      <Classbased></Classbased>
 
       {/* <Propex  stu1 = {student1}/>  */}
       {/* <Listrender></Listrender> */}

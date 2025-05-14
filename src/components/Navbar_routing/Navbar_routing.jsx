@@ -1,7 +1,6 @@
 import React from 'react'
 import "./Navbar_routing.css"
 import {Link} from "react-router-dom"
-
 const Navbar_routing = () => {
   return (
     <div className="navbar">
